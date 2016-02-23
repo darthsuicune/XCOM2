@@ -1,0 +1,58 @@
+//This file contains all the dependencies that our application should use with versioning
+//Each module still requires the import of the appropiate ones
+
+ext {
+    //Runtime
+    supportLibraryVersion = "23.1.1"
+    daggerVersion = "2.0.2"
+    javaxAnnotationVersion = '1.0'
+    butterKnifeVersion = "7.0.1"
+
+    // Might eventually want to use this two
+    //ollieVersion = "0.3.2-SNAPSHOT"
+    //picassoVersion = "2.5.2"
+
+    views = [
+            daggerCompiler: "com.google.dagger:dagger-compiler:${daggerVersion}",
+            dagger: "com.google.dagger:dagger:${daggerVersion}",
+            javaxAnnotation: "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+            design: "com.android.support:design:${supportLibraryVersion}",
+            appCompat: "com.android.support:appcompat-v7:${supportLibraryVersion}",
+            recyclerView: "com.android.support:recyclerview-v7:${supportLibraryVersion}",
+            gridLayout: "com.android.support:gridlayout-v7:${supportLibraryVersion}",
+            butterKnife: "com.jakewharton:butterknife:${butterKnifeVersion}",
+    ]
+
+    domain = [
+            daggerCompiler: "com.google.dagger:dagger-compiler:${daggerVersion}",
+            dagger: "com.google.dagger:dagger:${daggerVersion}",
+            support: "com.android.support:support-v4:${supportLibraryVersion}",
+            annotations: "com.android.support:support-annotations:${supportLibraryVersion}",
+            javaxAnnotation: "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+    ]
+
+    //Testing
+    espressoLibraryVersion = "2.2.1"
+    espressoRunnerVersion = "0.4.1"
+    dexmakerVersion = "1.4"
+    mockitoVersion = "2.0.17-beta"
+    junitVersion = "4.12"
+
+    uiTest = [
+            mockito: "org.mockito:mockito-core:${mockitoVersion}",
+            espressoRunner: "com.android.support.test:runner:${espressoRunnerVersion}",
+            espressoRules: "com.android.support.test:rules:${espressoRunnerVersion}",
+            espressoCore: "com.android.support.test.espresso:espresso-core:${espressoLibraryVersion}",
+            espressoIntents: "com.android.support.test.espresso:espresso-intents:${espressoLibraryVersion}",
+            espressoContrib: "com.android.support.test.espresso:espresso-contrib:${espressoLibraryVersion}",
+            dexmakerMockito: "com.crittercism.dexmaker:dexmaker-mockito:${dexmakerVersion}",
+            dexmaker: "com.crittercism.dexmaker:dexmaker:${dexmakerVersion}",
+            dexmakerDx: "com.crittercism.dexmaker:dexmaker-dx:${dexmakerVersion}",
+            annotations: "com.android.support:support-annotations:${supportLibraryVersion}",
+    ]
+
+    unitTest = [
+            junit: "junit:junit:${junitVersion}",
+            mockito: "org.mockito:mockito-core:${mockitoVersion}",
+    ]
+}

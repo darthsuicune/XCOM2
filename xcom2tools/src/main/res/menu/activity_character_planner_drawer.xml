@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_enemy_tracker"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/enemy_tracker_title" />
+        <item
+            android:id="@+id/nav_character_planner"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/character_planner_title" />
+    </group>
+
+</menu>
