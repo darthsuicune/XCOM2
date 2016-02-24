@@ -31,7 +31,7 @@ public class AlienAdapter extends RecyclerView.Adapter<AlienViewHolder> {
 	}
 
 	@Override public void onBindViewHolder(AlienViewHolder holder, int position) {
-		holder.setAlien(aliens.get(position));
+		holder.setAlien(position, aliens.get(position));
 	}
 
 	@Override public int getItemCount() {

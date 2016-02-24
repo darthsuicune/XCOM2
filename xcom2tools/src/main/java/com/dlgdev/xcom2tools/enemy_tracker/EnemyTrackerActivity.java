@@ -20,6 +20,7 @@ import com.dlgdev.xcom2tools.AppNavigationController;
 import com.dlgdev.xcom2tools.R;
 import com.dlgdev.xcom2tools.dagger.DaggerEnemyTrackerComponent;
 import com.dlgdev.xcom2tools.dagger.EnemyTrackerModule;
+import com.dlgdev.xcom2tools.domain.BadGuysRoster;
 import com.dlgdev.xcom2tools.domain.characters.BadGuysRepository;
 import com.dlgdev.xcom2tools.domain.characters.badguys.Advent;
 import com.dlgdev.xcom2tools.domain.characters.badguys.Alien;
@@ -32,14 +33,15 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class EnemyTrackerActivity extends AppCompatActivity
-		implements NavigationView.OnNavigationItemSelectedListener {
+		implements NavigationView.OnNavigationItemSelectedListener, EnemyTrackerActions {
 
+	private static final String KEY_ROSTER = "roster";
 	@Bind(R.id.drawer_layout) DrawerLayout drawer;
 	@Bind(R.id.toolbar) Toolbar toolbar;
 	@Bind(R.id.nav_view) NavigationView navigationView;
 
-	@Bind(R.id.advents) RecyclerView adventUnits;
-	@Bind(R.id.aliens) RecyclerView alienUnits;
+	@Bind(R.id.advents) RecyclerView adventUnitsView;
+	@Bind(R.id.aliens) RecyclerView alienUnitsView;
 	@Bind(R.id.roster) RecyclerView rosterView;
 	@Bind(R.id.enemy_count) EditText enemyCount;
 
@@ -62,8 +64,10 @@ public class EnemyTrackerActivity extends AppCompatActivity
 		ButterKnife.bind(this);
 		setSupportActionBar(toolbar);
 		setupDrawer();
-
-		setupViews(adventUnits, alienUnits, rosterView);
+		setupViews();
+		if(savedInstanceState != null && savedInstanceState.containsKey(KEY_ROSTER)) {
+			controller.restoreRoster(savedInstanceState.getBundle(KEY_ROSTER));
+		}
 	}
 
 	private void setupDrawer() {
@@ -76,29 +80,34 @@ public class EnemyTrackerActivity extends AppCompatActivity
 		navigationView.setNavigationItemSelectedListener(this);
 	}
 
-	public void setupViews(RecyclerView adventUnitsView, RecyclerView alienUnitsView,
-						   RecyclerView rosterView) {
-		setupAdventUnits(adventUnitsView);
-		setupAlienUnits(alienUnitsView);
-		setupRosterUnits(rosterView);
+	public void setupViews() {
+		setupAdventUnits();
+		setupAlienUnits();
+		setupRosterUnits();
 	}
 
-	private void setupAdventUnits(RecyclerView adventUnitsView) {
+	@Override protected void onSaveInstanceState(Bundle outState) {
+		super.onSaveInstanceState(outState);
+		outState.putBundle(KEY_ROSTER, controller.storeRoster());
+	}
+
+	private void setupAdventUnits() {
 		setupRecyclerView(adventUnitsView);
 		final List<Advent> advents = badGuysRepo.getPossibleAdvents();
-		adventUnitsView.setAdapter(new AdventAdapter(advents, getLayoutInflater(),
+		AdventAdapter adapter = new AdventAdapter(advents, getLayoutInflater(),
 				new ClickableViewHolder.RecyclerItemListener() {
 					@Override public void onItemSelected(int position) {
 						controller.onAdventSelected(advents.get(position));
 					}
-				}));
+				});
+		adventUnitsView.setAdapter(adapter);
 	}
 
 	private void setupRecyclerView(RecyclerView recyclerView) {
 		recyclerView.setLayoutManager(new LinearLayoutManager(this));
 	}
 
-	private void setupAlienUnits(RecyclerView alienUnitsView) {
+	private void setupAlienUnits() {
 		setupRecyclerView(alienUnitsView);
 		final List<Alien> aliens = badGuysRepo.getPossibleAliens();
 		alienUnitsView.setAdapter(new AlienAdapter(aliens, getLayoutInflater(),
@@ -109,7 +118,7 @@ public class EnemyTrackerActivity extends AppCompatActivity
 				}));
 	}
 
-	private void setupRosterUnits(RecyclerView rosterView) {
+	private void setupRosterUnits() {
 		setupRecyclerView(rosterView);
 	}
 
@@ -147,5 +156,14 @@ public class EnemyTrackerActivity extends AppCompatActivity
 			default:
 		}
 		return true;
+	}
+
+	@Override public void updateRoster(final BadGuysRoster roster) {
+		rosterView.setAdapter(new RosterAdapter(roster, getLayoutInflater(),
+				new ClickableViewHolder.RecyclerItemListener() {
+					@Override public void onItemSelected(int position) {
+						controller.onEnemyFromRosterSelected(roster.getEnemy(position));
+					}
+				}));
 	}
 }

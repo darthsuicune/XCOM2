@@ -19,7 +19,8 @@ public class AdventViewHolder extends ClickableViewHolder {
 		ButterKnife.bind(this, itemView);
 	}
 
-	public void setAdvent(Advent advent) {
+	public void setAdvent(int position, Advent advent) {
+		setPosition(position);
 		name.setText(advent.name());
 	}
 }

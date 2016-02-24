@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Domain</string>
+    <string name="sectoid">Sectoid</string>
+    <string name="viper">Viper</string>
+    <string name="archon">Archon</string>
+    <string name="trooper">Advent trooper</string>
+    <string name="advanced_trooper">Advanced trooper</string>
+    <string name="lancer">Stun lancer</string>
+    <string name="heavy_lancer">Heavy lancer</string>
+    <string name="officer">Advent officer</string>
+    <string name="advanced_officer">Advanced officer</string>
+    <string name="shieldbearer">Shieldbearer</string>
+    <string name="elite_shieldbearer">Elite shieldbearer</string>
+    <string name="mec">MEC</string>
+    <string name="heavy_mec">Heavy MEC</string>
+    <string name="codex">Codex</string>
+    <string name="chryssalid">Chryssalid</string>
+    <string name="baby_chryssalid">Baby Chryssalid</string>
+    <string name="andromedon">Andromedon</string>
+    <string name="sectopod">Sectopod</string>
+    <string name="gatekeeper">Gatekeeper</string>
+    <string name="avatar">Avatar</string>
 </resources>

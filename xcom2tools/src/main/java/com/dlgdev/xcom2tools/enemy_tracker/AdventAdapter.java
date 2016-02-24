@@ -31,7 +31,7 @@ public class AdventAdapter extends RecyclerView.Adapter<AdventViewHolder> {
 	}
 
 	@Override public void onBindViewHolder(AdventViewHolder holder, int position) {
-		holder.setAdvent(advents.get(position));
+		holder.setAdvent(position, advents.get(position));
 	}
 
 	@Override public int getItemCount() {

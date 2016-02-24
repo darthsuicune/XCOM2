@@ -18,134 +18,43 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="xcom" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a20bf5-56a5-4c0c-9ea9-4844cd68e0ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/accessibility_test_framework_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/asm_5_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/asm_commons_5_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/butterknife_7_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/byte_buddy_dep_0_6_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dagger_2_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dexmaker_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dexmaker_dx_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dexmaker_mockito_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_contrib_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_intents_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gridlayout_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_integration_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javawriter_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsr250_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsr305_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mockito_core_2_0_17_beta.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rules_0_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/runner_0_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XCOM2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dependencies.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/domain.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/androidTest/java/com/dlgdev/xcom2tools/domain/ApplicationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/BadGuysRoster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/BadGuysRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/Character.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/GoodGuysRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/Stats.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advents.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Alien.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Aliens.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/BadGuysRepo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Enemy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Pod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/goodguys/Soldier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/test/java/com/dlgdev/xcom2tools/domain/ExampleUnitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/androidTest/java/com/dlgdev/xcom2tools/ApplicationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/views/ClickableViewHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/AppNavigationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/character_planner/CharacterPlannerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/character_planner/CharacterPlannerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/CharacterPlannerComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/CharacterPlannerModule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerModule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventViewHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienViewHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerControllerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/drawable-v21/ic_menu_camera.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/drawable-v21/ic_menu_gallery.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/drawable-v21/ic_menu_manage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/drawable-v21/ic_menu_send.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/drawable-v21/ic_menu_share.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/drawable-v21/ic_menu_slideshow.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/drawable/side_nav_bar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/activity_character_planner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/activity_enemy_tracker.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/app_bar_character_planner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/app_bar_enemy_tracker.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/content_character_planner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/content_enemy_tracker.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/nav_header_character_planner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/nav_header_enemy_tracker.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_advent.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_alien.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/menu/activity_character_planner_drawer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/menu/activity_enemy_tracker_drawer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/menu/enemy_tracker.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/values-v21/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/values-w820dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/values/drawables.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/test/java/com/dlgdev/xcom2tools/ExampleUnitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/xcom2tools.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/EnemiesRoster.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerActions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/RosterAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/RosterViewHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_enemy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/domain.iml" afterPath="$PROJECT_DIR$/domain/domain.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/BadGuysRoster.java" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/BadGuysRoster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advent.java" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advents.java" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advents.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Alien.java" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Alien.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Aliens.java" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Aliens.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/BadGuysRepo.java" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/BadGuysRepo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Enemy.java" afterPath="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Enemy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/domain/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/views/ClickableViewHolder.java" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/views/ClickableViewHolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerModule.java" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventAdapter.java" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventViewHolder.java" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventViewHolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienAdapter.java" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienViewHolder.java" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienViewHolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerActivity.java" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerController.java" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerControllerImpl.java" afterPath="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerControllerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_advent.xml" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_advent.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_alien.xml" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_alien.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/xcom2tools/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcom2tools/xcom2tools.iml" afterPath="$PROJECT_DIR$/xcom2tools/xcom2tools.iml" />
     </list>
     <ignored path="XCOM2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -182,25 +91,28 @@
     <splitter split-orientation="horizontal" split-proportion="0.49748427">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="EnemyTrackerController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerController.java">
+          <file leaf-file-name="EnemyTrackerControllerImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerControllerImpl.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+                  <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#1033#1034#0" expanded="true" />
+                    <element signature="e#1061#1062#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="EnemyTrackerControllerImpl.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerControllerImpl.java">
+          <file leaf-file-name="EnemiesRoster.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/EnemiesRoster.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.44755244">
-                  <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.9206843">
+                  <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#992#993#0" expanded="true" />
+                    <element signature="e#1038#1039#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -210,44 +122,57 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="EnemyTrackerActivity.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="EnemyTrackerActivity.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerActivity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#2413#2444#0" expanded="true" />
-                    <element signature="e#2452#2484#0" expanded="true" />
-                    <element signature="e#3082#3259#0" expanded="true" />
-                    <element signature="e#3258#3259#0" expanded="true" />
-                    <element signature="e#3634#3809#0" expanded="true" />
-                    <element signature="e#3808#3809#0" expanded="true" />
-                    <element signature="e#3873#3874#0" expanded="true" />
-                    <element signature="e#3909#3910#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AdventAdapter.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventAdapter.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.60342145">
+                  <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1203#1204#0" expanded="true" />
-                    <element signature="e#1231#1232#0" expanded="true" />
+                    <element signature="e#2665#2696#0" expanded="true" />
+                    <element signature="e#2704#2736#0" expanded="true" />
+                    <element signature="e#3341#3518#0" expanded="true" />
+                    <element signature="e#3517#3518#0" expanded="true" />
+                    <element signature="e#3904#4079#0" expanded="true" />
+                    <element signature="e#4078#4079#0" expanded="true" />
+                    <element signature="e#5203#5393#0" expanded="true" />
+                    <element signature="e#5392#5393#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AlienAdapter.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienAdapter.java">
+          <file leaf-file-name="EnemyTrackerModule.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerModule.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7202797">
-                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+                  <folding>
+                    <element signature="e#1224#1225#0" expanded="true" />
+                    <element signature="e#1257#1258#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RosterAdapter.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/RosterAdapter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#1221#1222#0" expanded="true" />
+                    <element signature="e#1262#1263#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RosterViewHolder.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/RosterViewHolder.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -262,14 +187,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="resourceFile" />
         <option value="Class" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Denis Lapuente" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -2755,22 +2685,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/badguys/Enemy.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/goodguys/Soldier.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/Character.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/Stats.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/badguys/Aliens.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/badguys/BadGuys.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/badguys/Advent.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/badguys/Alien.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/badguys/Advents.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/badguys/Pod.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/GoodGuysRepository.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/BadGuysRepository.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/badguys/BadGuysRepository.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/badguys/BadGuysRepo.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/BadGuysRoster.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Aliens.java" />
         <option value="$PROJECT_DIR$/xcom2tools/src/main/res/layout/app_bar_enemy_tracker.xml" />
         <option value="$PROJECT_DIR$/domain/build.gradle" />
         <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/EnemyTrackerActivity.java" />
@@ -2788,24 +2708,34 @@
         <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerComponent.java" />
         <option value="$PROJECT_DIR$/dependencies.gradle" />
         <option value="$PROJECT_DIR$/xcom2tools/build.gradle" />
-        <option value="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_advent.xml" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Enemy.java" />
         <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyAdapter.java" />
-        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventViewHolder.java" />
-        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventAdapter.java" />
-        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerController.java" />
-        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienViewHolder.java" />
-        <option value="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_alien.xml" />
-        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienAdapter.java" />
-        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerControllerImpl.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Alien.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advent.java" />
-        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerModule.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/BadGuysRepo.java" />
         <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/CharacterPlannerModule.java" />
-        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerActivity.java" />
         <option value="$USER_HOME$/android-sdk-linux/platforms/android-23/android.jar!/android/app/Activity.class" />
         <option value="$PROJECT_DIR$/xcom2tools/src/main/res/layout/content_enemy_tracker.xml" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Enemy.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Alien.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advent.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Aliens.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advents.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/BadGuysRepo.java" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerModule.java" />
+        <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/ad53343e57ae0969aaf451a19eef381abe2ad3a1/butterknife-7.0.1-sources.jar!/butterknife/ButterKnife.java" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienAdapter.java" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienViewHolder.java" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventViewHolder.java" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventAdapter.java" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/RosterAdapter.java" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/RosterViewHolder.java" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/views/ClickableViewHolder.java" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_alien.xml" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_advent.xml" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_enemy.xml" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerActivity.java" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerController.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/BadGuysRoster.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/EnemiesRoster.java" />
+        <option value="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerControllerImpl.java" />
       </list>
     </option>
   </component>
@@ -2900,7 +2830,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="xcom2tools">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="xcom2tools">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="XCOM2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="XCOM2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2911,6 +2878,46 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Gradle Scripts" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XCOM2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xcom2tools" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles.xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XCOM2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xcom2tools" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3151,38 +3158,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goodguys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XCOM2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="characters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="badguys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3467,45 +3450,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="xcom2tools">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="xcom2tools">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="XCOM2">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="XCOM2">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3530,21 +3474,27 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="329" />
     <property name="device.picker.selection" value="LGD8558508e077" />
+    <property name="DEBUGGABLE_DEVICE" value="lge-lg_d855-LGD8558508e077" />
+    <property name="DEBUGGABLE_PROCESS" value="com.dlgdev.xcom2tools" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.dlgdev.xcom2tools.enemy_tracker" />
-      <recent name="com.dlgdev.xcom2tools.dagger" />
-      <recent name="com.dlgdev.xcom2tools" />
-      <recent name="com.dlgdev.xcom2tools.character_planner" />
-      <recent name="com.dlgdev.xcom2tools.domain" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/views" />
       <recent name="$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker" />
       <recent name="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters" />
       <recent name="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/goodguys" />
       <recent name="$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/badguys" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.dlgdev.xcom2tools.enemy_tracker" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dlgdev.xcom2tools.enemy_tracker" />
+      <recent name="com.dlgdev.xcom2tools.dagger" />
+      <recent name="com.dlgdev.xcom2tools" />
+      <recent name="com.dlgdev.xcom2tools.character_planner" />
+      <recent name="com.dlgdev.xcom2tools.domain" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.xcom2tools">
@@ -3879,33 +3829,63 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296593" sideWeight="0.4946752" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.638" sideWeight="0.4946752" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997996" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296593" sideWeight="0.50532484" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296593" sideWeight="0.49361023" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329" sideWeight="0.49361023" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15814696" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.157082" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296593" sideWeight="0.4946752" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296593" sideWeight="0.50532484" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.157082" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997996" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329" sideWeight="0.49361023" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -3918,95 +3898,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Added a lot more stuff. Kinda works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a lot more stuff. Kinda works" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienAdapter.java</url>
-          <line>33</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventAdapter.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventAdapter.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/XCOM2.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/xcom2tools.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8296296">
-          <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08465608">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/menu/enemy_tracker.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/BadGuysRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4014,15 +3921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Aliens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09886715">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4041,7 +3939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.032955717">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4049,7 +3946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.032955717">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4057,17 +3953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/BadGuysRoster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4076,47 +3961,50 @@
         <state vertical-scroll-proportion="0.41194645">
           <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#349#350#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/app_bar_enemy_tracker.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.3018868">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/app_bar_character_planner.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/app_bar_character_planner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41830066">
           <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/nav_header_enemy_tracker.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/nav_header_enemy_tracker.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.017429193">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/nav_header_character_planner.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/nav_header_character_planner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34858388">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
@@ -4131,30 +4019,27 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/activity_character_planner.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/activity_character_planner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.943396">
           <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/activity_enemy_tracker.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/activity_enemy_tracker.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3137255">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/menu/activity_enemy_tracker_drawer.xml">
@@ -4177,14 +4062,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/content_character_planner.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/character_planner/CharacterPlannerActivity.java">
@@ -4203,7 +4088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4247,103 +4131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_advent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17429194">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Enemy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.032955717">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/views/ClickableViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16477858">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32955715">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3130793">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_alien.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08714597">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09968847">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Alien.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.049844235">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1495327">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/CharacterPlannerModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2990654">
@@ -4352,98 +4139,266 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24922119">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/android-sdk-linux/platforms/android-23/android.jar!/android/app/Activity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3653846">
           <caret line="599" column="26" selection-start-line="599" selection-start-column="26" selection-end-line="599" selection-end-column="26" />
-          <folding>
-            <element signature="e#16631#16632#0" expanded="true" />
-            <element signature="e#16682#16683#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/content_enemy_tracker.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.16">
           <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/BadGuysRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44859812">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding>
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.098663926">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerControllerImpl.java">
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44755244">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.14906833">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerActivity.java">
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/dagger/EnemyTrackerModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
-            <element signature="e#2413#2444#0" expanded="true" />
-            <element signature="e#2452#2484#0" expanded="true" />
-            <element signature="e#3082#3259#0" expanded="true" />
-            <element signature="e#3258#3259#0" expanded="true" />
-            <element signature="e#3634#3809#0" expanded="true" />
-            <element signature="e#3808#3809#0" expanded="true" />
-            <element signature="e#3873#3874#0" expanded="true" />
-            <element signature="e#3909#3910#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventAdapter.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/ad53343e57ae0969aaf451a19eef381abe2ad3a1/butterknife-7.0.1-sources.jar!/butterknife/ButterKnife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21274409">
+          <caret line="321" column="0" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienViewHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58536583">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AlienAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7202797">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.72125435">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/AdventAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66898954">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/RosterAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/RosterViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/views/ClickableViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.049331963">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_alien.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.034782607">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_enemy.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15652174">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/layout/view_holder_advent.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.034782607">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67304015">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18088387">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/BadGuysRoster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23021583">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11510792">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Alien.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11510792">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.098663926">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60342145">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2665#2696#0" expanded="true" />
+            <element signature="e#2704#2736#0" expanded="true" />
+            <element signature="e#3341#3518#0" expanded="true" />
+            <element signature="e#3517#3518#0" expanded="true" />
+            <element signature="e#3904#4079#0" expanded="true" />
+            <element signature="e#4078#4079#0" expanded="true" />
+            <element signature="e#5203#5393#0" expanded="true" />
+            <element signature="e#5392#5393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Aliens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18088387">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/characters/badguys/Advents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14799589">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xcom2tools/src/main/java/com/dlgdev/xcom2tools/enemy_tracker/EnemyTrackerControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/dlgdev/xcom2tools/domain/EnemiesRoster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9206843">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,8 +1,11 @@
 package com.dlgdev.xcom2tools.dagger;
 
 import com.dlgdev.xcom2tools.AppNavigationController;
+import com.dlgdev.xcom2tools.domain.BadGuysRoster;
+import com.dlgdev.xcom2tools.domain.EnemiesRoster;
 import com.dlgdev.xcom2tools.domain.characters.BadGuysRepository;
 import com.dlgdev.xcom2tools.domain.characters.badguys.BadGuysRepo;
+import com.dlgdev.xcom2tools.enemy_tracker.EnemyTrackerActions;
 import com.dlgdev.xcom2tools.enemy_tracker.EnemyTrackerActivity;
 import com.dlgdev.xcom2tools.enemy_tracker.EnemyTrackerController;
 import com.dlgdev.xcom2tools.enemy_tracker.EnemyTrackerControllerImpl;
@@ -22,7 +25,7 @@ public class EnemyTrackerModule {
 		return new AppNavigationController(activity);
 	}
 
-	@Provides EnemyTrackerActivity provideActivity() {
+	@Provides EnemyTrackerActions provideActivity() {
 		return activity;
 	}
 
@@ -30,7 +33,11 @@ public class EnemyTrackerModule {
 		return impl;
 	}
 
-	@Provides BadGuysRepository provideRepository(BadGuysRepo repo) {
-		return repo;
+	@Provides BadGuysRepository provideRepository() {
+		return new BadGuysRepo();
+	}
+
+	@Provides BadGuysRoster provideRoster() {
+		return new EnemiesRoster();
 	}
 }
