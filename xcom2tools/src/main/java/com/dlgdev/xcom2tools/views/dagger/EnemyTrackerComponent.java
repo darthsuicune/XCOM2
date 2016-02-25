@@ -1,6 +1,6 @@
-package com.dlgdev.xcom2tools.dagger;
+package com.dlgdev.xcom2tools.views.dagger;
 
-import com.dlgdev.xcom2tools.enemy_tracker.EnemyTrackerActivity;
+import com.dlgdev.xcom2tools.views.enemy_tracker.EnemyTrackerActivity;
 
 import dagger.Component;
 

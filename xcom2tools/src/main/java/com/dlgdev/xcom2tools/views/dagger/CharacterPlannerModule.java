@@ -1,7 +1,7 @@
-package com.dlgdev.xcom2tools.dagger;
+package com.dlgdev.xcom2tools.views.dagger;
 
-import com.dlgdev.xcom2tools.AppNavigationController;
-import com.dlgdev.xcom2tools.character_planner.CharacterPlannerActivity;
+import com.dlgdev.xcom2tools.views.AppNavigationController;
+import com.dlgdev.xcom2tools.views.character_planner.CharacterPlannerActivity;
 
 import dagger.Module;
 import dagger.Provides;
@@ -10,7 +10,7 @@ import dagger.Provides;
 public class CharacterPlannerModule {
 	CharacterPlannerActivity activity;
 
-	CharacterPlannerModule(CharacterPlannerActivity activity) {
+	public CharacterPlannerModule(CharacterPlannerActivity activity) {
 		this.activity = activity;
 	}
 

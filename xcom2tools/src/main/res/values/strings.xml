@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">XCOM 2 Tools</string>
+    <string name="app_name">Pocket Shadow Chamber</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -9,4 +9,7 @@
     <string name="character_planner_title">Character Planner</string>
     <string name="enemy_count">Enemy count</string>
     <string name="start_mission">Start mission</string>
+    <string name="mission_tracker_title">Mission tracker</string>
+    <string name="error_invalid_enemy_count">Invalid enemy count</string>
+    <string name="error_unavailable">Unavailable for now</string>
 </resources>

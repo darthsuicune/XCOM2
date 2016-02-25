@@ -1,14 +1,14 @@
-package com.dlgdev.xcom2tools.dagger;
+package com.dlgdev.xcom2tools.views.dagger;
 
-import com.dlgdev.xcom2tools.AppNavigationController;
+import com.dlgdev.xcom2tools.views.AppNavigationController;
 import com.dlgdev.xcom2tools.domain.BadGuysRoster;
 import com.dlgdev.xcom2tools.domain.EnemiesRoster;
 import com.dlgdev.xcom2tools.domain.characters.BadGuysRepository;
 import com.dlgdev.xcom2tools.domain.characters.badguys.BadGuysRepo;
-import com.dlgdev.xcom2tools.enemy_tracker.EnemyTrackerActions;
-import com.dlgdev.xcom2tools.enemy_tracker.EnemyTrackerActivity;
-import com.dlgdev.xcom2tools.enemy_tracker.EnemyTrackerController;
-import com.dlgdev.xcom2tools.enemy_tracker.EnemyTrackerControllerImpl;
+import com.dlgdev.xcom2tools.views.enemy_tracker.EnemyTrackerActions;
+import com.dlgdev.xcom2tools.views.enemy_tracker.EnemyTrackerActivity;
+import com.dlgdev.xcom2tools.views.enemy_tracker.EnemyTrackerController;
+import com.dlgdev.xcom2tools.views.enemy_tracker.EnemyTrackerControllerImpl;
 
 import dagger.Module;
 import dagger.Provides;

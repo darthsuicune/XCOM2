@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dlgdev.xcom2tools" >
+<manifest xmlns:tools="http://schemas.android.com/tools"
+    package="com.dlgdev.xcom2tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
-            android:name=".enemy_tracker.EnemyTrackerActivity"
+            android:name=".views.enemy_tracker.EnemyTrackerActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.mission_tracker.MissionTrackerActivity"
+            android:label="@string/mission_tracker_title"
+            android:parentActivityName=".views.enemy_tracker.EnemyTrackerActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".views.enemy_tracker.EnemyTrackerActivity" />
+        </activity>
+        <activity
+            android:name=".views.character_planner.CharacterPlannerActivity"
+            android:label="@string/character_planner_title"
+            android:theme="@style/AppTheme.NoActionBar">
+
         </activity>
     </application>
 

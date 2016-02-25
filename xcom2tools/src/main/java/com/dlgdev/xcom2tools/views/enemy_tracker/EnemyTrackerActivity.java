@@ -1,89 +1,84 @@
-package com.dlgdev.xcom2tools.enemy_tracker;
+package com.dlgdev.xcom2tools.views.enemy_tracker;
 
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.text.Editable;
+import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.widget.EditText;
 
 import com.dlgdev.views.ClickableViewHolder;
-import com.dlgdev.xcom2tools.AppNavigationController;
+import com.dlgdev.xcom2tools.views.NavigationActivity;
 import com.dlgdev.xcom2tools.R;
 import com.dlgdev.xcom2tools.dagger.DaggerEnemyTrackerComponent;
-import com.dlgdev.xcom2tools.dagger.EnemyTrackerModule;
+import com.dlgdev.xcom2tools.views.dagger.EnemyTrackerModule;
 import com.dlgdev.xcom2tools.domain.BadGuysRoster;
 import com.dlgdev.xcom2tools.domain.characters.BadGuysRepository;
 import com.dlgdev.xcom2tools.domain.characters.badguys.Advent;
 import com.dlgdev.xcom2tools.domain.characters.badguys.Alien;
+import com.dlgdev.xcom2tools.views.enemies.AdventAdapter;
+import com.dlgdev.xcom2tools.views.enemies.AlienAdapter;
+import com.dlgdev.xcom2tools.views.enemies.RosterAdapter;
 
 import java.util.List;
+import java.util.Locale;
 
 import javax.inject.Inject;
 
 import butterknife.Bind;
-import butterknife.ButterKnife;
+import butterknife.OnClick;
 
-public class EnemyTrackerActivity extends AppCompatActivity
-		implements NavigationView.OnNavigationItemSelectedListener, EnemyTrackerActions {
+public class EnemyTrackerActivity extends NavigationActivity implements EnemyTrackerActions {
 
 	private static final String KEY_ROSTER = "roster";
-	@Bind(R.id.drawer_layout) DrawerLayout drawer;
-	@Bind(R.id.toolbar) Toolbar toolbar;
-	@Bind(R.id.nav_view) NavigationView navigationView;
 
 	@Bind(R.id.advents) RecyclerView adventUnitsView;
 	@Bind(R.id.aliens) RecyclerView alienUnitsView;
 	@Bind(R.id.roster) RecyclerView rosterView;
 	@Bind(R.id.enemy_count) EditText enemyCount;
 
-	@Inject AppNavigationController appNavigation;
 	@Inject EnemyTrackerController controller;
 	@Inject BadGuysRepository badGuysRepo;
 
-	public static Intent intentFor(Context context) {
-		return new Intent(context, EnemyTrackerActivity.class);
-	}
-
 	@Override protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_enemy_tracker);
-
-		//Bind the injectable fields
 		DaggerEnemyTrackerComponent.builder().enemyTrackerModule(new EnemyTrackerModule(this))
 				.build().inject(this);
-
-		ButterKnife.bind(this);
-		setSupportActionBar(toolbar);
-		setupDrawer();
+		setTitle(R.string.enemy_tracker_title);
 		setupViews();
-		if(savedInstanceState != null && savedInstanceState.containsKey(KEY_ROSTER)) {
+		if (savedInstanceState != null && savedInstanceState.containsKey(KEY_ROSTER)) {
 			controller.restoreRoster(savedInstanceState.getBundle(KEY_ROSTER));
 		}
 	}
 
-	private void setupDrawer() {
-		ActionBarDrawerToggle toggle =
-				new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open,
-						R.string.navigation_drawer_close);
-		drawer.setDrawerListener(toggle);
-		toggle.syncState();
-
-		navigationView.setNavigationItemSelectedListener(this);
+	@Override protected int requestLayout() {
+		return R.layout.activity_enemy_tracker;
 	}
 
 	public void setupViews() {
 		setupAdventUnits();
 		setupAlienUnits();
 		setupRosterUnits();
+		enemyCount.addTextChangedListener(new TextWatcher() {
+			@Override
+			public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+			}
+
+			@Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+			}
+
+			@Override public void afterTextChanged(Editable editable) {
+				try {
+					controller.setEnemyAmount(Integer.parseInt(editable.toString()));
+				} catch (NumberFormatException e) {
+					enemyCount.setError(getString(R.string.error_invalid_enemy_count));
+				}
+
+			}
+		});
 	}
 
 	@Override protected void onSaveInstanceState(Bundle outState) {
@@ -122,41 +117,6 @@ public class EnemyTrackerActivity extends AppCompatActivity
 		setupRecyclerView(rosterView);
 	}
 
-	@Override public void onBackPressed() {
-		if (drawer.isDrawerOpen(GravityCompat.START)) {
-			drawer.closeDrawer(GravityCompat.START);
-		} else {
-			super.onBackPressed();
-		}
-	}
-
-	@Override public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.enemy_tracker, menu);
-		return true;
-	}
-
-	@Override public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-			case R.id.action_settings:
-				appNavigation.openSettings();
-				return true;
-			default:
-				return super.onOptionsItemSelected(item);
-		}
-	}
-
-	@Override public boolean onNavigationItemSelected(MenuItem item) {
-		drawer.closeDrawer(GravityCompat.START);
-		switch (item.getItemId()) {
-			case R.id.nav_character_planner:
-				appNavigation.openCharacterPlanner();
-				break;
-			//This 2 cases can be ignored from this point
-			case R.id.nav_enemy_tracker:
-			default:
-		}
-		return true;
-	}
 
 	@Override public void updateRoster(final BadGuysRoster roster) {
 		rosterView.setAdapter(new RosterAdapter(roster, getLayoutInflater(),
@@ -165,5 +125,13 @@ public class EnemyTrackerActivity extends AppCompatActivity
 						controller.onEnemyFromRosterSelected(roster.getEnemy(position));
 					}
 				}));
+		enemyCount.setText(String.format(Locale.getDefault(), "%d", roster.amount()));
+	}
+
+	@OnClick(R.id.start_mission) public void startMission() {
+		if(TextUtils.isEmpty(enemyCount.getText())) {
+			controller.setEnemyAmount(0);
+		}
+		appNavigation.startMission(controller.storeRoster());
 	}
 }

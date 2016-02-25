@@ -1,4 +1,4 @@
-package com.dlgdev.xcom2tools.enemy_tracker;
+package com.dlgdev.xcom2tools.views.enemies;
 
 import android.view.View;
 import android.widget.TextView;
@@ -21,6 +21,6 @@ public class AdventViewHolder extends ClickableViewHolder {
 
 	public void setAdvent(int position, Advent advent) {
 		setPosition(position);
-		name.setText(advent.name());
+		name.setText(advent.nameResId());
 	}
 }

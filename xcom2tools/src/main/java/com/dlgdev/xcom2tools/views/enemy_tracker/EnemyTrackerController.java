@@ -1,4 +1,4 @@
-package com.dlgdev.xcom2tools.enemy_tracker;
+package com.dlgdev.xcom2tools.views.enemy_tracker;
 
 import android.os.Bundle;
 
@@ -16,4 +16,6 @@ public interface EnemyTrackerController {
 	Bundle storeRoster();
 
 	void restoreRoster(Bundle bundle);
+
+	void setEnemyAmount(int amount);
 }

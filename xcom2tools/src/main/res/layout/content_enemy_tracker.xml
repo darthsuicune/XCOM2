@@ -12,7 +12,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     app:rowCount="2"
     app:useDefaultMargins="true"
-    tools:context=".enemy_tracker.EnemyTrackerActivity"
+    tools:context=".views.enemy_tracker.EnemyTrackerActivity"
     tools:showIn="@layout/app_bar_enemy_tracker">
 
     <android.support.v7.widget.RecyclerView

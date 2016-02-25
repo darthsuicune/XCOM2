@@ -1,4 +1,4 @@
-package com.dlgdev.xcom2tools.enemy_tracker;
+package com.dlgdev.xcom2tools.views.enemies;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

@@ -16,10 +16,10 @@ public class BadGuysRepo implements BadGuysRepository {
 	}
 
 	@Override public List<Alien> getPossibleAliens() {
-		return Aliens.getAliens();
+		return Alien.getAliens();
 	}
 
 	@Override public List<Advent> getPossibleAdvents() {
-		return Advents.getAdvents();
+		return Advent.getAdvents();
 	}
 }
