@@ -19,4 +19,6 @@ public interface BadGuysRoster {
 	void updateFromBundle(Bundle bundle);
 
 	Bundle store();
+
+	void killEnemy(Enemy enemy);
 }

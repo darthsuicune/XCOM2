@@ -2,10 +2,10 @@ package com.dlgdev.xcom2tools.views.character_planner;
 
 import android.os.Bundle;
 
-import com.dlgdev.xcom2tools.views.NavigationActivity;
 import com.dlgdev.xcom2tools.R;
+import com.dlgdev.xcom2tools.views.NavigationActivity;
 import com.dlgdev.xcom2tools.views.dagger.CharacterPlannerModule;
-import com.dlgdev.xcom2tools.dagger.DaggerCharacterPlannerComponent;
+import com.dlgdev.xcom2tools.views.dagger.DaggerCharacterPlannerComponent;
 
 public class CharacterPlannerActivity extends NavigationActivity {
 

@@ -1,6 +1,7 @@
 package com.dlgdev.xcom2tools.domain;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 
 import com.dlgdev.xcom2tools.domain.characters.badguys.Alien;
 import com.dlgdev.xcom2tools.domain.characters.badguys.Enemy;
@@ -11,8 +12,10 @@ import java.util.List;
 public class EnemiesRoster implements BadGuysRoster {
 	private static final String KEY_AMOUNT = "Amount";
 	private static final String KEY_ENEMIES = "Enemies";
+	private static final String KEY_KILLED_ENEMIES = "KilledEnemies";
 
 	List<Enemy> enemies = new ArrayList<>();
+	List<Enemy> killedEnemies = new ArrayList<>();
 	int amount = 0;
 
 	@Override public List<Enemy> enemyRoster() {
@@ -20,7 +23,9 @@ public class EnemiesRoster implements BadGuysRoster {
 	}
 
 	@Override public BadGuysRoster addEnemy(Enemy enemy) {
-		enemies.add(enemy);
+		if(!enemies.contains(enemy)) {
+			enemies.add(enemy);
+		}
 		return this;
 	}
 
@@ -41,25 +46,43 @@ public class EnemiesRoster implements BadGuysRoster {
 		enemies.remove(enemy);
 	}
 
+	@Override public void killEnemy(Enemy enemy) {
+		amount--;
+		killedEnemies.add(enemy);
+	}
+
 	@Override public void updateFromBundle(Bundle bundle) {
 		this.amount = bundle.getInt(KEY_AMOUNT);
 		List<Integer> enemies = bundle.getIntegerArrayList(KEY_ENEMIES);
-		if(enemies == null) {
+		addEnemiesFromIdsToList(enemies, this.enemies);
+		List<Integer> killed = bundle.getIntegerArrayList(KEY_KILLED_ENEMIES);
+		addEnemiesFromIdsToList(killed, this.killedEnemies);
+	}
+
+	public void addEnemiesFromIdsToList(List<Integer> ids, List<Enemy> list) {
+		if (ids == null) {
 			throw new IllegalStateException("The lists weren't properly saved, you moron");
 		}
-		for(Integer id : enemies) {
-			this.enemies.add(Alien.fromId(id));
+		for (Integer id : ids) {
+			list.add(Alien.fromId(id));
 		}
 	}
 
 	@Override public Bundle store() {
 		Bundle bundle = new Bundle();
 		bundle.putInt(KEY_AMOUNT, amount);
+		ArrayList<Integer> enemyIds = getIdsFromList(this.enemies);
+		bundle.putIntegerArrayList(KEY_ENEMIES, enemyIds);
+		ArrayList<Integer> killedEnemiesIds = getIdsFromList(this.killedEnemies);
+		bundle.putIntegerArrayList(KEY_KILLED_ENEMIES, killedEnemiesIds);
+		return bundle;
+	}
+
+	@NonNull private ArrayList<Integer> getIdsFromList(List<Enemy> list) {
 		ArrayList<Integer> enemyIds = new ArrayList<>(25);
-		for(Enemy enemy : enemies) {
+		for(Enemy enemy : list) {
 			enemyIds.add(enemy.nameResId());
 		}
-		bundle.putIntegerArrayList(KEY_ENEMIES, enemyIds);
-		return bundle;
+		return enemyIds;
 	}
 }

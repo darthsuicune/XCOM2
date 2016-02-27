@@ -29,7 +29,8 @@ public class EnemyTrackerControllerImpl implements EnemyTrackerController {
 		activity.updateRoster(roster);
 	}
 
-	@Override public void onEnemyFromRosterSelected(Enemy enemy) {
+	@Override public void onEnemyFromRosterSelected(int position) {
+		Enemy enemy = roster.getEnemy(position);
 		roster.removeEnemy(enemy);
 		activity.updateRoster(roster);
 	}
@@ -45,5 +46,10 @@ public class EnemyTrackerControllerImpl implements EnemyTrackerController {
 
 	@Override public void setEnemyAmount(int amount) {
 		roster.setAmount(amount);
+	}
+
+	@Override public void changeEnemyCountBy(int i) {
+		roster.setAmount(roster.amount() + i);
+		activity.updateRoster(roster);
 	}
 }

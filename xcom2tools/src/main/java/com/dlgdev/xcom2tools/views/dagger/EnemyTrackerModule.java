@@ -17,6 +17,8 @@ import dagger.Provides;
 public class EnemyTrackerModule {
 	EnemyTrackerActivity activity;
 
+	BadGuysRoster roster = new EnemiesRoster();
+
 	public EnemyTrackerModule(EnemyTrackerActivity activity) {
 		this.activity = activity;
 	}
@@ -38,6 +40,6 @@ public class EnemyTrackerModule {
 	}
 
 	@Provides BadGuysRoster provideRoster() {
-		return new EnemiesRoster();
+		return roster;
 	}
 }

@@ -9,14 +9,15 @@ import android.text.TextWatcher;
 import android.widget.EditText;
 
 import com.dlgdev.views.ClickableViewHolder;
-import com.dlgdev.xcom2tools.views.NavigationActivity;
 import com.dlgdev.xcom2tools.R;
-import com.dlgdev.xcom2tools.dagger.DaggerEnemyTrackerComponent;
-import com.dlgdev.xcom2tools.views.dagger.EnemyTrackerModule;
 import com.dlgdev.xcom2tools.domain.BadGuysRoster;
 import com.dlgdev.xcom2tools.domain.characters.BadGuysRepository;
 import com.dlgdev.xcom2tools.domain.characters.badguys.Advent;
 import com.dlgdev.xcom2tools.domain.characters.badguys.Alien;
+import com.dlgdev.xcom2tools.views.NavigationActivity;
+import com.dlgdev.xcom2tools.views.dagger.DaggerEnemyTrackerComponent;
+import com.dlgdev.xcom2tools.views.dagger.EnemyTrackerComponent;
+import com.dlgdev.xcom2tools.views.dagger.EnemyTrackerModule;
 import com.dlgdev.xcom2tools.views.enemies.AdventAdapter;
 import com.dlgdev.xcom2tools.views.enemies.AlienAdapter;
 import com.dlgdev.xcom2tools.views.enemies.RosterAdapter;
@@ -40,11 +41,15 @@ public class EnemyTrackerActivity extends NavigationActivity implements EnemyTra
 
 	@Inject EnemyTrackerController controller;
 	@Inject BadGuysRepository badGuysRepo;
+	RosterAdapter adapter;
+
+	EnemyTrackerComponent component;
 
 	@Override protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		DaggerEnemyTrackerComponent.builder().enemyTrackerModule(new EnemyTrackerModule(this))
-				.build().inject(this);
+		component = DaggerEnemyTrackerComponent.builder().enemyTrackerModule(new EnemyTrackerModule(this))
+				.build();
+		component.inject(this);
 		setTitle(R.string.enemy_tracker_title);
 		setupViews();
 		if (savedInstanceState != null && savedInstanceState.containsKey(KEY_ROSTER)) {
@@ -73,6 +78,7 @@ public class EnemyTrackerActivity extends NavigationActivity implements EnemyTra
 			@Override public void afterTextChanged(Editable editable) {
 				try {
 					controller.setEnemyAmount(Integer.parseInt(editable.toString()));
+					enemyCount.setError(null);
 				} catch (NumberFormatException e) {
 					enemyCount.setError(getString(R.string.error_invalid_enemy_count));
 				}
@@ -115,23 +121,33 @@ public class EnemyTrackerActivity extends NavigationActivity implements EnemyTra
 
 	private void setupRosterUnits() {
 		setupRecyclerView(rosterView);
+		adapter = new RosterAdapter(component.provideRoster(), getLayoutInflater(),
+				new ClickableViewHolder.RecyclerItemListener() {
+					@Override public void onItemSelected(int position) {
+						controller.onEnemyFromRosterSelected(position);
+					}
+				});
+		rosterView.setAdapter(adapter);
 	}
 
 
 	@Override public void updateRoster(final BadGuysRoster roster) {
-		rosterView.setAdapter(new RosterAdapter(roster, getLayoutInflater(),
-				new ClickableViewHolder.RecyclerItemListener() {
-					@Override public void onItemSelected(int position) {
-						controller.onEnemyFromRosterSelected(roster.getEnemy(position));
-					}
-				}));
+		adapter.updateRoster(roster);
 		enemyCount.setText(String.format(Locale.getDefault(), "%d", roster.amount()));
 	}
 
 	@OnClick(R.id.start_mission) public void startMission() {
-		if(TextUtils.isEmpty(enemyCount.getText())) {
+		if (TextUtils.isEmpty(enemyCount.getText())) {
 			controller.setEnemyAmount(0);
 		}
 		appNavigation.startMission(controller.storeRoster());
+	}
+
+	@OnClick(R.id.add_enemy) public void addEnemy() {
+		controller.changeEnemyCountBy(1);
+	}
+
+	@OnClick(R.id.remove_enemy) public void removeEnemy() {
+		controller.changeEnemyCountBy(-1);
 	}
 }

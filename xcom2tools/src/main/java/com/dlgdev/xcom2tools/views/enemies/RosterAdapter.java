@@ -10,9 +10,9 @@ import com.dlgdev.xcom2tools.R;
 import com.dlgdev.xcom2tools.domain.BadGuysRoster;
 
 public class RosterAdapter extends RecyclerView.Adapter<RosterViewHolder> {
-	private final BadGuysRoster roster;
-	private final LayoutInflater layoutInflater;
-	private final ClickableViewHolder.RecyclerItemListener listener;
+	BadGuysRoster roster;
+	LayoutInflater layoutInflater;
+	ClickableViewHolder.RecyclerItemListener listener;
 
 	public RosterAdapter(BadGuysRoster roster, LayoutInflater layoutInflater,
 						 ClickableViewHolder.RecyclerItemListener listener) {
@@ -34,5 +34,10 @@ public class RosterAdapter extends RecyclerView.Adapter<RosterViewHolder> {
 
 	@Override public int getItemCount() {
 		return roster.enemyRoster().size();
+	}
+
+	public void updateRoster(BadGuysRoster roster) {
+		this.roster = roster;
+		notifyDataSetChanged();
 	}
 }

@@ -1,5 +1,6 @@
 package com.dlgdev.xcom2tools.views.enemies;
 
+import android.graphics.Color;
 import android.view.View;
 import android.widget.TextView;
 
@@ -22,5 +23,13 @@ public class RosterViewHolder extends ClickableViewHolder {
 	public void setEnemy(int position, Enemy enemy) {
 		setPosition(position);
 		name.setText(enemy.nameResId());
+	}
+
+	public void markAsKilled() {
+		name.setTextColor(Color.RED);
+	}
+
+	public void markAsRevived() {
+		name.setTextColor(Color.BLACK);
 	}
 }

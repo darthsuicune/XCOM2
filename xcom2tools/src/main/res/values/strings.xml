@@ -12,4 +12,10 @@
     <string name="mission_tracker_title">Mission tracker</string>
     <string name="error_invalid_enemy_count">Invalid enemy count</string>
     <string name="error_unavailable">Unavailable for now</string>
+    <string name="enemy_counter">Enemy count: %d</string>
+    <string name="roster_title">Enemy Roster</string>
+    <string name="advents_title">Advent units</string>
+    <string name="aliens_title">Alien units</string>
+    <string name="increase_enemy_counter">Increase enemy counter</string>
+    <string name="reduce_enemy_counter">Reduce enemy counter</string>
 </resources>

@@ -1,30 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    app:columnCount="2"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    app:rowCount="2"
-    app:useDefaultMargins="true"
-    tools:context=".views.enemy_tracker.EnemyTrackerActivity"
-    tools:showIn="@layout/app_bar_enemy_tracker">
+                                      xmlns:app="http://schemas.android.com/apk/res-auto"
+                                      xmlns:tools="http://schemas.android.com/tools"
+                                      android:layout_width="match_parent"
+                                      android:layout_height="match_parent"
+                                      android:paddingBottom="@dimen/activity_vertical_margin"
+                                      android:paddingLeft="@dimen/activity_horizontal_margin"
+                                      android:paddingRight="@dimen/activity_horizontal_margin"
+                                      android:paddingTop="@dimen/activity_vertical_margin"
+                                      app:columnCount="2"
+                                      app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                                      app:rowCount="2"
+                                      app:useDefaultMargins="true"
+                                      tools:context=".views.enemy_tracker.EnemyTrackerActivity"
+                                      tools:showIn="@layout/app_bar_enemy_tracker">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/roster"
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:orientation="vertical"
         app:layout_column="0"
         app:layout_columnWeight="1"
         app:layout_row="0"
-        app:layout_rowWeight="1" />
+        app:layout_rowWeight="1">
 
-    <LinearLayout
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/roster_title"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/roster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <RelativeLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:focusableInTouchMode="true"
@@ -35,46 +48,108 @@
         app:layout_rowWeight="1">
 
         <TextView
+            android:id="@+id/enemy_count_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="8dp"
             android:layout_gravity="center"
             android:labelFor="@+id/enemy_count"
-            android:text="@string/enemy_count" />
+            android:text="@string/enemy_count"/>
 
         <EditText
             android:id="@+id/enemy_count"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/enemy_count_label"
             android:layout_gravity="center"
+            android:layout_toEndOf="@+id/remove_enemy"
+            android:layout_toLeftOf="@+id/add_enemy"
+            android:layout_toRightOf="@+id/remove_enemy"
+            android:layout_toStartOf="@+id/add_enemy"
             android:gravity="center"
             android:inputType="number"
             android:maxLength="2"
-            tools:text="25" />
+            tools:text="25"/>
+
+        <ImageView
+            android:id="@+id/add_enemy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/enemy_count"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/increase_enemy_counter"
+            android:padding="12dp"
+            android:src="@android:drawable/arrow_up_float"/>
+
+        <ImageView
+            android:id="@+id/remove_enemy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/add_enemy"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@id/add_enemy"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/reduce_enemy_counter"
+            android:padding="12dp"
+            android:src="@android:drawable/arrow_down_float"/>
 
         <Button
             android:id="@+id/start_mission"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/enemy_count"
+            android:layout_centerHorizontal="true"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="@string/start_mission" />
-    </LinearLayout>
+            android:text="@string/start_mission"/>
+    </RelativeLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/advents"
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:orientation="vertical"
         app:layout_column="0"
         app:layout_columnWeight="1"
         app:layout_row="1"
-        app:layout_rowWeight="1" />
+        app:layout_rowWeight="1">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/aliens"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/advents_title"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/advents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:orientation="vertical"
         app:layout_column="1"
         app:layout_columnWeight="1"
         app:layout_row="1"
-        app:layout_rowWeight="1" />
+        app:layout_rowWeight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/aliens_title"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/aliens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 </android.support.v7.widget.GridLayout>
