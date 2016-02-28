@@ -82,7 +82,6 @@ public class EnemyTrackerActivity extends NavigationActivity implements EnemyTra
 				} catch (NumberFormatException e) {
 					enemyCount.setError(getString(R.string.error_invalid_enemy_count));
 				}
-
 			}
 		});
 	}

@@ -1,5 +1,6 @@
 package com.dlgdev.xcom2tools.views.mission_tracker;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -73,20 +74,6 @@ public class MissionTrackerActivity extends NavigationActivity {
 		killedEnemiesView.setAdapter(killedEnemiesAdapter);
 	}
 
-	//This in theory should only happen if the user messes up.
-	private void reviveEnemy(int position) {
-		Enemy enemy = killedEnemies.get(position);
-		roster.addEnemy(enemy);
-		roster.setAmount(roster.amount()+1);
-		showEnemiesLeft();
-		killedEnemies.remove(position);
-		killedEnemiesAdapter.update(killedEnemies);
-		if(!killedEnemies.contains(enemy)) {
-			((RosterViewHolder) rosterView.getChildViewHolder(rosterView.getChildAt(position)))
-					.markAsRevived();
-		}
-	}
-
 	private void showEnemiesLeft() {
 		enemyCount.setText(getString(R.string.enemy_counter, roster.amount()));
 	}
@@ -95,17 +82,31 @@ public class MissionTrackerActivity extends NavigationActivity {
 		Enemy enemy = roster.getEnemy(position);
 		roster.killEnemy(enemy);
 		killedEnemies.add(enemy);
-		((RosterViewHolder) rosterView.getChildViewHolder(rosterView.getChildAt(position)))
-				.markAsKilled();
+		((TextView) rosterView.getChildAt(position).findViewById(R.id.name)).setTextColor(Color.RED);
+//		((RosterViewHolder) rosterView.getChildViewHolder(rosterView.getChildAt(position)))
+//				.markAsKilled();
 		adapter.updateRoster(roster);
 		killedEnemiesAdapter.update(killedEnemies);
 		showEnemiesLeft();
 	}
 
+	//This in theory should only happen if the user messes up.
+	private void reviveEnemy(int position) {
+		Enemy enemy = killedEnemies.get(position);
+		roster.addEnemy(enemy);
+		roster.setAmount(roster.amount() + 1);
+		showEnemiesLeft();
+		killedEnemies.remove(position);
+		killedEnemiesAdapter.update(killedEnemies);
+		if (!killedEnemies.contains(enemy)) {
+			((RosterViewHolder) rosterView.getChildViewHolder(rosterView.getChildAt(position)))
+					.markAsRevived();
+		}
+	}
+
 	@Override protected int requestLayout() {
 		return R.layout.activity_mission_tracker;
 	}
-
 
 	private class KilledEnemiesAdapter extends RecyclerView.Adapter<RosterViewHolder> {
 
