@@ -1,6 +1,5 @@
 package com.dlgdev.xcom2tools.views.mission_tracker;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -44,8 +43,8 @@ public class MissionTrackerActivity extends NavigationActivity {
 
 	@Override protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		DaggerMissionTrackerComponent.builder()
-				.missionTrackerModule(new MissionTrackerModule(this)).build().inject(this);
+		DaggerMissionTrackerComponent.builder().missionTrackerModule(new MissionTrackerModule(this))
+				.build().inject(this);
 		Bundle extras = getIntent().getExtras();
 		if (extras.containsKey(EXTRA_ROSTER)) {
 			roster.updateFromBundle(extras.getBundle(EXTRA_ROSTER));
@@ -82,9 +81,8 @@ public class MissionTrackerActivity extends NavigationActivity {
 		Enemy enemy = roster.getEnemy(position);
 		roster.killEnemy(enemy);
 		killedEnemies.add(enemy);
-		((TextView) rosterView.getChildAt(position).findViewById(R.id.name)).setTextColor(Color.RED);
-//		((RosterViewHolder) rosterView.getChildViewHolder(rosterView.getChildAt(position)))
-//				.markAsKilled();
+		long id = adapter.getItemId(position);
+		((RosterViewHolder) rosterView.findViewHolderForItemId(id)).markAsKilled();
 		adapter.updateRoster(roster);
 		killedEnemiesAdapter.update(killedEnemies);
 		showEnemiesLeft();
@@ -99,7 +97,7 @@ public class MissionTrackerActivity extends NavigationActivity {
 		killedEnemies.remove(position);
 		killedEnemiesAdapter.update(killedEnemies);
 		if (!killedEnemies.contains(enemy)) {
-			((RosterViewHolder) rosterView.getChildViewHolder(rosterView.getChildAt(position)))
+			((RosterViewHolder) rosterView.findViewHolderForLayoutPosition(position))
 					.markAsRevived();
 		}
 	}
