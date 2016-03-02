@@ -38,7 +38,7 @@ public class MissionTrackerActivity extends NavigationActivity {
 	@Inject BadGuysRoster roster;
 	List<Enemy> killedEnemies = new ArrayList<>();
 
-	RosterAdapter adapter;
+	RosterAdapter rosterAdapter;
 	KilledEnemiesAdapter killedEnemiesAdapter;
 
 	@Override protected void onCreate(Bundle savedInstanceState) {
@@ -55,13 +55,13 @@ public class MissionTrackerActivity extends NavigationActivity {
 	private void setupViews() {
 		showEnemiesLeft();
 		rosterView.setLayoutManager(new LinearLayoutManager(this));
-		adapter = new RosterAdapter(roster, getLayoutInflater(),
+		rosterAdapter = new RosterAdapter(roster, getLayoutInflater(),
 				new ClickableViewHolder.RecyclerItemListener() {
 					@Override public void onItemSelected(int position) {
 						onEnemyClicked(position);
 					}
 				});
-		rosterView.setAdapter(adapter);
+		rosterView.setAdapter(rosterAdapter);
 
 		killedEnemiesView.setLayoutManager(new LinearLayoutManager(this));
 		killedEnemiesAdapter = new KilledEnemiesAdapter(killedEnemies, getLayoutInflater(),
@@ -81,9 +81,12 @@ public class MissionTrackerActivity extends NavigationActivity {
 		Enemy enemy = roster.getEnemy(position);
 		roster.killEnemy(enemy);
 		killedEnemies.add(enemy);
-		long id = adapter.getItemId(position);
-		((RosterViewHolder) rosterView.findViewHolderForItemId(id)).markAsKilled();
-		adapter.updateRoster(roster);
+		RosterViewHolder vh =
+				(RosterViewHolder) rosterView.findViewHolderForAdapterPosition(position);
+		RosterViewHolder vh1 =
+				(RosterViewHolder) rosterView.findViewHolderForLayoutPosition(position);
+		vh.markAsKilled();
+		rosterAdapter.updateRoster(roster);
 		killedEnemiesAdapter.update(killedEnemies);
 		showEnemiesLeft();
 	}
