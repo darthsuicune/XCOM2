@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.dlgdev.xcom2tools"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+
+    compile project(':domain')
+    def deps = rootProject.ext.views
+    apt deps.daggerCompiler
+    provided deps.javaxAnnotation
+    compile deps.design
+    compile deps.appCompat
+    compile deps.recyclerView
+    compile deps.butterKnife
+    compile deps.gridLayout
+
+    def unitTestDeps = rootProject.ext.unitTest
+    testCompile unitTestDeps.junit
+    testCompile unitTestDeps.mockito
+
+    def uiTestDeps = rootProject.ext.uiTest
+    androidTestCompile uiTestDeps.dexmakerMockito
+    androidTestCompile uiTestDeps.dexmakerDx
+    androidTestCompile uiTestDeps.annotations
+    androidTestCompile uiTestDeps.espressoIntents
+    androidTestCompile(uiTestDeps.espressoContrib) {
+        exclude group: "com.android.support", module: "appcompat"
+        exclude group: "com.android.support", module: "support-v4"
+        exclude module: "recyclerview-v7"
+    }
+}

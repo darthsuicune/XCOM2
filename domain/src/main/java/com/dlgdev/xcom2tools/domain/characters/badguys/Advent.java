@@ -23,17 +23,12 @@ public enum Advent implements Enemy {
 	}
 
 	public static List<Advent> getAdvents() {
-		List<Advent> list = new ArrayList<>(10);
+		List<Advent> list = new ArrayList<>(6);
 		list.add(TROOPER);
-		list.add(ADVANCED_TROOPER);
 		list.add(LANCER);
-		list.add(HEAVY_LANCER);
 		list.add(OFFICER);
-		list.add(ADVANCED_OFFICER);
 		list.add(SHIELDBEARER);
-		list.add(ELITE_SHIELDBEARER);
 		list.add(MEC);
-		list.add(HEAVY_MEC);
 		list.add(AVATAR);
 		return list;
 	}

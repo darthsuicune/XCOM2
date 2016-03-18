@@ -1,1 +1,1 @@
-include ':xcom2tools', ':domain'
+include ':views', ':domain'

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/EnemyTracker.List.Entry"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/Enemy.ViewHolder.EnemyName"
+        tools:text="AAAA"/>
+
+</LinearLayout>

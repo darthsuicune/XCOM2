@@ -22,14 +22,13 @@ public enum Alien implements Enemy {
 	}
 
 	public static List<Alien> getAliens() {
-		List<Alien> list = new ArrayList<>(10);
+		List<Alien> list = new ArrayList<>(9);
 		list.add(SECTOID);
 		list.add(VIPER);
 		list.add(MUTON);
 		list.add(ARCHON);
 		list.add(CODEX);
 		list.add(CHRYSSALID);
-		list.add(BABY_CHRYSSALID);
 		list.add(ANDROMEDON);
 		list.add(SECTOPOD);
 		list.add(GATEKEEPER);
