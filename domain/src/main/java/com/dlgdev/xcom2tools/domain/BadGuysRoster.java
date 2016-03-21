@@ -21,4 +21,5 @@ public interface BadGuysRoster {
 	Bundle store();
 
 	void killEnemy(Enemy enemy);
+	void reviveEnemy(Enemy enemy);
 }

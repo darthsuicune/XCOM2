@@ -51,6 +51,11 @@ public class EnemiesRoster implements BadGuysRoster {
 		killedEnemies.add(enemy);
 	}
 
+	@Override public void reviveEnemy(Enemy enemy) {
+		amount++;
+		killedEnemies.remove(enemy);
+	}
+
 	@Override public void updateFromBundle(Bundle bundle) {
 		this.amount = bundle.getInt(KEY_AMOUNT);
 		List<Integer> enemies = bundle.getIntegerArrayList(KEY_ENEMIES);

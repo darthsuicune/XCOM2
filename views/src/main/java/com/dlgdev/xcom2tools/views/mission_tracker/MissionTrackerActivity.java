@@ -78,11 +78,6 @@ public class MissionTrackerActivity extends NavigationActivity {
 		killedEnemies.add(enemy);
 		rosterAdapter.updateRoster(roster);
 		killedEnemiesAdapter.update(killedEnemies);
-		//		RosterViewHolder vh =
-		//				(RosterViewHolder) rosterView.findViewHolderForAdapterPosition(position);
-		//		RosterViewHolder vh1 =
-		//				(RosterViewHolder) rosterView.findViewHolderForLayoutPosition(position);
-		//		vh.markAsKilled();
 		showEnemiesLeft();
 	}
 
@@ -92,10 +87,6 @@ public class MissionTrackerActivity extends NavigationActivity {
 		roster.setAmount(roster.amount() + 1);
 		killedEnemies.remove(enemy);
 		killedEnemiesAdapter.update(killedEnemies);
-//		if (!killedEnemies.contains(enemy)) {
-//			((RosterViewHolder) rosterView.findViewHolderForLayoutPosition(position))
-//					.markAsRevived();
-//		}
 		showEnemiesLeft();
 	}
 
